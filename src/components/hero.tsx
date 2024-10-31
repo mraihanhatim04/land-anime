@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
 import GridPattern from "./ui/grid-pattern";
 import { VelocityScroll } from "./ui/scroll-based-velocity";
 
@@ -22,14 +21,6 @@ export default function Hero() {
             "[mask-image:radial-gradient(300px_circle_at_center,transparent)]"
           )}
         />
-        <div className="flex gap-2 mt-4">
-          <Button className="border border-slate-950 hover:bg-black hover:text-white">
-            Popular Anime
-          </Button>
-          <Button className="border border-slate-950 hover:bg-black hover:text-white">
-            Recomendation Anime
-          </Button>
-        </div>
       </div>
     </>
   );
