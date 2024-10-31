@@ -1,7 +1,13 @@
+"use client";
+
+import Hero from "@/components/hero";
+import MyMenu from "@/components/mymenu";
+
 export default function Home() {
   return (
-    <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 ">
-      <h1>Land Anime</h1>
-    </div>
+    <>
+      <Hero />
+      <MyMenu />
+    </>
   );
 }
