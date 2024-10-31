@@ -1,20 +1,26 @@
+import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function ListAnime() {
+export default function ListAnime({ title, image }: any) {
   return (
-    <div className="grid grid-cols-2 gap-4 p-4 md:grid-cols-6 mb-28">
-      <div className="bg-zinc-950 text-white border rounded-lg shadow-md p-4">
-        <h2 className="text-md font-normal">Anime Title</h2>
-        <Separator />
+    <div className="bg-zinc-50 shadow-2xl border rounded-3xl p-4">
+      <h2 className="text-md">{title.slice(0, 18)}</h2>
+      <Separator />
+      <Link href={""}>
         <Image
-          src={"https://via.placeholder.com/150?"}
+          priority={false}
+          src={image}
           alt={"Anime Title"}
-          width={180}
-          height={150}
-          className="rounded mt-2 justify-center items-center"
+          width={200}
+          height={200}
+          className="w-full h-[250px] object-cover rounded mt-1 justify-center items-center"
         />
-      </div>
+      </Link>
+      <Button className="w-full mt-1 rounded-lg hover:bg-zinc-700 hover:text-white">
+        Details Here
+      </Button>
     </div>
   );
 }
