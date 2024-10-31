@@ -14,18 +14,6 @@ export default function Navbar() {
           </Link>
           <GemIcon size={34} />
         </div>
-        <div className="flex space-x-1 items-center">
-          <div className="relative">
-            <Input
-              type="text"
-              placeholder="Search Anime..."
-              className="pr-8 border-black w-[150px] lg:w-[200px]"
-            />
-            <button className="absolute right-3 top-1/2 transform -translate-y-1/2 text-black">
-              <Search />
-            </button>
-          </div>
-        </div>
       </div>
     </nav>
   );
