@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
-import GridPattern from "./ui/grid-pattern";
-import { VelocityScroll } from "./ui/scroll-based-velocity";
+import GridPattern from "../../components/ui/grid-pattern";
+import { VelocityScroll } from "../../components/ui/scroll-based-velocity";
 
 export default function Hero() {
   return (

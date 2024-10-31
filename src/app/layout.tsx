@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "../components/navbar";
-import Hero from "@/components/hero";
+import Navbar from "./components/navbar";
+import Hero from "@/app/components/hero";
 import { DynaPuff } from "@next/font/google";
 
 export const metadata: Metadata = {
