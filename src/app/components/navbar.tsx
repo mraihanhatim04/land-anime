@@ -22,9 +22,9 @@ export default function Navbar() {
               placeholder="Search Anime..."
               className="pr-10 px-2"
             />
-            <button className="absolute inset-y-0 right-2 flex items-center">
+            <Button className="absolute bg-zinc-700 text-white inset-y-0 right-0 flex items-center">
               <SearchIcon size={25} />
-            </button>
+            </Button>
           </div>
         </div>
       </div>
