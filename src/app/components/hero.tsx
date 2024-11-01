@@ -5,7 +5,10 @@ import { VelocityScroll } from "../../components/ui/scroll-based-velocity";
 export default function Hero() {
   return (
     <>
-      <div className="relative flex flex-col size-full h-[250px] text-center items-center justify-center overflow-hidden border bg-background p-20 md:shadow-xl gap-2 mb-20">
+      <div className="relative flex flex-col size-full h-[200px] text-center items-center justify-center overflow-hidden border bg-background p-20 md:shadow-xl gap-2 mb-20">
+        <h1 className="text-red-700 font-bold tracking-wider text-4xl underline mb-4">
+          This site is currently under development
+        </h1>
         <VelocityScroll
           text="Find Your Next Adventure, Dive into the latest anime releases and
           timeless classics"
